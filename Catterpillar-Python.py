@@ -134,7 +134,7 @@ class Caterpillar(object):
     def draw(self, surface):
         for i , c in enumerate(self.body):
             if i==0:
-                c.draw(surface, True) #drawing eyes for the head
+                c.draw(surface, True) #drawing eyes for the head.
             else:
                 c.draw(surface)
 
